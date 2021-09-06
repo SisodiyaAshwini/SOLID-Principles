@@ -6,7 +6,8 @@ namespace Scenarios
     {
         static void Main(string[] args)
         {
-            InterfaceScenario1.Practice();
+            //InterfaceScenario1.Practice();
+            InhertitanceScenario1.Practice();
         }
     }    
 }
