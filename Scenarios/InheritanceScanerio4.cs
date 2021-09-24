@@ -22,4 +22,3 @@ namespace Scenarios
         //    public override void MyMethod() { }
     }
 }
-}

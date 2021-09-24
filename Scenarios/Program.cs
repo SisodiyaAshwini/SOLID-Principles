@@ -37,6 +37,18 @@ namespace Scenarios
                 Console.WriteLine("This is orignal reverse string: " + reverseStr);
             }
             Console.ReadLine();
+
+            try 
+            {
+                Console.WriteLine("I am from try");
+                return;
+            }
+            catch
+            { }
+            finally
+            {
+                Console.WriteLine("I am from finally");
+            }
         }
     }
 }
